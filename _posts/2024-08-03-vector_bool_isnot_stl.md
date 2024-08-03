@@ -7,9 +7,7 @@ tags: [vector_bool]
 ---
 # `vector<bool>`不是STL容器
 
-
-
-## 为什么`vector<bool>`不是STL容器
+## 为什么 `vector<bool>`不是STL容器
 
 是否为 STL 容器，C++ 标准库中有明确的判断条件，其中一个条件是：如果 cont 是包含对象 T 的 STL 容器，且该容器中重载了 [ ] 运算符（即支持 operator[]），则以下代码必须能够被编译：
 
@@ -167,4 +165,5 @@ classyour_class {
 ## 相关参考
 
 [`std::vector<bool>`](https://en.cppreference.com/w/cpp/container/vector_bool)
-
+[Why isn&#39;t `vector<bool>` a STL container?](https://stackoverflow.com/questions/17794569/why-isnt-vectorbool-a-stl-container)
+[c++中为什么不提倡使用 `vector<bool>`？](https://www.zhihu.com/question/23367698/answer/148258487)
