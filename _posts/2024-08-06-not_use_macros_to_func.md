@@ -17,19 +17,17 @@ C++宏最重要是明确：宏仅仅是文本替换！而且它是预编译时�
 
 但是在cpp11标准之后是不推荐使用的，因为宏仅仅是文本替换！而且它是预编译时发生，在正常编译开始之前，在调试时已经进行文本替换，这可能使得调试过程变得复杂。
 
-C++11引入了[constexpr关键字](https://en.cppreference.com/w/cpp/language/constexpr)，可以用于定义编译时常量表达式，这提供了更好的安全性和灵活性。
+C++11引入了constexpr关键字，可以用于定义编译时常量表达式，这提供了更好的安全性和灵活性。
 
 ```cpp
-
-constexprdouble PI = 3.14159265358979323846;
-
+constexpr double PI = 3.14159265358979323846;
 ```
 
 或者使用 `const`关键字来定义只读变量
 
 ```cpp
 
-constdouble PI = 3.14159265358979323846;
+const double PI = 3.14159265358979323846;
 
 ```
 
@@ -127,10 +125,4 @@ DOSOMETHING();
 
 这在c和cpp11以前的版本是十分有用的，但是在cpp11以后并不推荐使用宏定义函数，推荐使用内联函数或者其他特性替代。
 
-## 参考
 
-[`constexpr`关键字](https://en.cppreference.com/w/cpp/language/constexpr)
-
-[C++ 内联函数`inline`和宏定义`# define`的优劣及其区别](https://www.cnblogs.com/yinbiao/p/11606554.html)
-
-[ `do{...}while(0)`的意义和用法](https://www.cnblogs.com/wicub/p/6031093.html)
