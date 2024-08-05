@@ -3,7 +3,7 @@ title: 不推荐用宏表示常量和做函数
 author: SG-Amadeus
 date: 2024-08-06 00:07:01 +0800
 categories: [CPP, CppTraps]
-tags: [macro]
+tags: [macros]
 ---
 # 不推荐用宏表示常量和做函数
 
