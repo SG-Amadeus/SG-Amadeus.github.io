@@ -45,7 +45,7 @@ constdouble PI = 3.14159265358979323846;
 
 ```cpp
 
-#defineSQUARE(x) x * x
+# define SQUARE(x) x * x
 
 ```
 
@@ -78,11 +78,8 @@ inline int square(int x ) {
 linux内核和其他一些开源的代码中，经常会遇到这样的代码：
 
 ```cpp
-
 do{
-
- ...
-
+  ...
 }while(0)
 
 ```
@@ -92,55 +89,38 @@ do{
 比如
 
 ```cpp
-
 #defineDOSOMETHING() {\
-
         foo1(); \
-
         foo2(); \
-
         }\
-
 ```
 
 我们习惯调用函数以后使用分号：
 
 ```cpp
-
 DOSOMETHING();
-
 ```
 
 而经过文本替换后就会变成这样:
 
 ```cpp
-
 {
-
     foo1();
-
     foo2();
-
 };
 
 ```
 
 显然是存在语法上的错误
 
-因此会采用 `do{...}while(0)`
+因此会采用 `do{...}while(0)`。
 
 ```cpp
-
-#defineDOSOMETHING() \
-
-        do{ \
-
-          foo1();\
-
-          foo2();\
-
-        }while(0)\
-
+#define DOSOMETHING() \       
+    do{ \
+        foo1();\
+        foo2();\
+    }while(0)\
 ```
 
 了解 `do{...}while(0)`能够帮助我们理解以前项目的源代码。
@@ -151,6 +131,6 @@ DOSOMETHING();
 
 [`constexpr`关键字](https://en.cppreference.com/w/cpp/language/constexpr)
 
-[C++ 内联函数(inline)和宏定义(# define)的优劣及其区别](https://www.cnblogs.com/yinbiao/p/11606554.html)
+[C++ 内联函数`inline`和宏定义`# define`的优劣及其区别](https://www.cnblogs.com/yinbiao/p/11606554.html)
 
-[ do{...}while(0)的意义和用法](https://www.cnblogs.com/wicub/p/6031093.html)
+[ `do{...}while(0)`的意义和用法](https://www.cnblogs.com/wicub/p/6031093.html)
