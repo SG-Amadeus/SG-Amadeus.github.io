@@ -382,5 +382,4 @@ thrdpool的设计体现了现代C++系统编程的最佳实践：在提供简洁
 
 1. Sogou C++ Workflow 源码: https://github.com/sogou/workflow
 2. workflow/src/kernel/thrdpool.c/h
-3. workflow/memory/kernel-overview.md
-4. workflow/memory/thrdpool.md
+3. [一个逻辑完备的线程池](https://zhuanlan.zhihu.com/p/503733481)
