@@ -1,6 +1,6 @@
 ---
 title: 修复GitHub Actions弃用错误
-description: 本文详细记录如何解决GitHub Actions中"actions/upload-artifact: v3已弃用"的错误，包括问题诊断、版本升级步骤和验证方法。
+description: '本文详细记录如何解决GitHub Actions中"actions/upload-artifact v3已弃用"的错误，包括问题诊断、版本升级步骤和验证方法。'
 author: SG-Amadeus
 date: 2026-03-04 00:00:00 +0800
 categories: [GitHub, DevOps, CI/CD]
