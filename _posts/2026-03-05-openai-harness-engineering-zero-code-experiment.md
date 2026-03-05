@@ -9,7 +9,7 @@ tags: [openai, harness-engineering, zero-code, ai-agent, software-engineering]
 
 # OpenAI Harness Engineering：零人工代码实验的范式启示
 
-**来源：** OpenAI文章[《Harness engineering: leveraging Codex in an agent-first world》（Ryan Lopopolo，2026-02-11）](https://openai.com/index/harness-engineering/)
+**来源：** OpenAI文章《Harness engineering: leveraging Codex in an agent-first world》（Ryan Lopopolo，2026-02-11）
 
 **分析日期：** 2026年3月5日
 

@@ -9,7 +9,7 @@ tags: [spec-driven-development, ai-native, software-engineering, testing, best-p
 
 # Spec-Driven Development：12个反直觉发现与AI原生开发启示
 
-**来源：** [知乎文章关于SDD实践的总结（Martin Fowler团队警告与12个反直觉发现）](https://zhuanlan.zhihu.com/p/2009360781687424184)
+**来源：** 知乎文章关于SDD实践的总结（Martin Fowler团队警告与12个反直觉发现）
 
 
 ## 背景：权威警告与反直觉实践
