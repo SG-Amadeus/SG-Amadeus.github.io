@@ -1,5 +1,5 @@
 ---
-title: Spec-Driven Development：12个反直觉发现与AI原生开发启示
+title: Spec-Driven Development,12个反直觉发现与AI原生开发启示
 description: 本文通过两个月Spec-Driven Development实践总结12个反直觉发现，揭示AI原生开发的最佳实践不是选对工具而是建立正确的人机协作模式。
 author: SG-Amadeus
 date: 2026-03-05 00:00:00 +0800

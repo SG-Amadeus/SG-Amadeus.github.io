@@ -1,5 +1,5 @@
 ---
-title: OpenAI Harness Engineering：零人工代码实验的范式启示
+title: OpenAI Harness Engineering,零人工代码实验的范式启示
 description: 本文分析OpenAI团队在零人工手写代码约束下构建软件产品的实验，揭示软件工程从编码技艺演变为harness engineering的范式转变。
 author: SG-Amadeus
 date: 2026-03-05 00:00:00 +0800

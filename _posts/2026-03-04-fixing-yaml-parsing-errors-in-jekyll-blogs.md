@@ -1,5 +1,5 @@
 ---
-title: 解决Jekyll博客中的YAML解析错误：description字段冒号问题
+title: 解决Jekyll博客中的YAML解析错误，description字段冒号问题
 description: 本文详细分析Jekyll构建过程中遇到的YAML解析错误，特别是description字段中冒号引起的'mapping values are not allowed in this context'问题，并提供两种有效的解决方案。
 author: SG-Amadeus
 date: 2026-03-04 00:00:00 +0800
