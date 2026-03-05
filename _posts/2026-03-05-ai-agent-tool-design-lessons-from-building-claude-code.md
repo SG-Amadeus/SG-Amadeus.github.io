@@ -1,12 +1,12 @@
 ---
-title: "AI Agent Tool Design: Lessons from Building Claude Code"
+title: "AI Agent工具设计：Claude Code构建经验总结"
 author: SG-Amadeus
 date: 2026-03-05 00:00:00 +0800
 categories: [AI, 开发工具, 工程实践]
 tags: [ai-agent, tool-design, claude-code, openai, engineering]
 ---
 
-# AI Agent Tool Design: Lessons from Building Claude Code
+# AI Agent工具设计：Claude Code构建经验总结
 
 这篇文章总结了构建Claude Code过程中关于AI代理工具设计的核心经验，源自https://x.com/i/article/2027446899310313472。其核心观点是：工具设计需要与代理的“能力形状”相匹配，这是一门依赖具体模型、目标和环境的艺术，而非纯科学。
 

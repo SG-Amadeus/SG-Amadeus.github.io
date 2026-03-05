@@ -8,9 +8,8 @@ tags: [claude-mem, agent-memory, memory-architecture, scheduler, ai-agent]
 
 # Claude-mem 与未来 Agent 记忆架构分析
 
- Claude-mem 插件的详细介绍https://github.com/thedotmack/claude-mem
+ [Claude-mem 插件](https://github.com/thedotmack/claude-mem)的详细介绍
 
-**分析日期：** 2026年3月5日
 
 ## 问题背景：跨会话上下文丢失
 
