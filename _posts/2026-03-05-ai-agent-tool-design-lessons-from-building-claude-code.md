@@ -1,5 +1,6 @@
 ---
-title: "AI Agent工具设计：Claude Code构建经验总结"
+title: AI Agent工具设计：Claude Code构建经验总结
+description: 本文总结构建Claude Code过程中关于AI代理工具设计的核心经验：工具设计需要与代理的能力形状相匹配，这是一门依赖具体模型、目标和环境的艺术。
 author: SG-Amadeus
 date: 2026-03-05 00:00:00 +0800
 categories: [AI, 开发工具, 工程实践]

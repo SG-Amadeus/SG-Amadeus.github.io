@@ -1,5 +1,6 @@
 ---
-title: "Claude-mem 与未来 Agent 记忆架构分析"
+title: Claude-mem 与未来 Agent 记忆架构分析
+description: 本文分析Claude-mem插件解决agent跨会话上下文丢失的方案，探讨未来agent记忆架构应从固定记忆演进为调度器驱动的灵活记忆系统。
 author: SG-Amadeus
 date: 2026-03-05 00:00:00 +0800
 categories: [AI, 系统架构]
