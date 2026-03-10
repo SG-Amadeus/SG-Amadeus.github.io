@@ -1,13 +1,13 @@
 ---
-title: "重构Superpowers：从线性工作流到前后端分离架构"
-description: "本文深度分析Superpowers AI代理工作流系统的架构限制，探讨单会话限制、强制启用机制、会话阻塞和刚性设计等问题，并提出基于前后端分离思想的重构方案，包括三层架构设计和分阶段实施路径。"
+title: "Superpowers架构思考与演进方向"
+description: "本文深度分析Superpowers AI代理工作流系统的架构限制，探讨单会话限制、强制启用机制、会话阻塞和刚性设计等问题，并提出基于前后端分离思想的架构演进方案，包括三层架构设计和分阶段实施路径。"
 author: SG-Amadeus
 date: 2026-03-09 00:00:00 +0800
 categories: [AI Agents, Software Engineering, System Design]
-tags: [superpowers, ai agents, architecture, software engineering, system design, workflow, refactoring, distributed systems]
+tags: [superpowers, ai agents, architecture, software engineering, system design, workflow, evolution, distributed systems]
 ---
 
-# 重构Superpowers：从线性工作流到前后端分离架构
+# Superpowers架构思考与演进方向
 
 ## 引言：当方法论遇到架构瓶颈
 
