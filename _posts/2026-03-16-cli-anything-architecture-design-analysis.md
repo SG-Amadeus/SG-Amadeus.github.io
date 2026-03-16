@@ -2,7 +2,7 @@
 title: "CLI-Anything架构设计深度解析：从规范方法论到工程实践的思考"
 description: "本文深入分析CLI-Anything项目的架构设计规范与思考，结合Zotero CLI开发实践经验，探讨自动化CLI生成框架的设计哲学、实现挑战与改进方向。"
 author: SG-Amadeus
-date: 2026-03-16 17:00:00 +0800
+date: 2026-03-16 00:00:00 +0800
 categories: [架构设计, 自动化, CLI, AI智能体]
 tags: [cli-anything, 架构分析, 设计规范, automation-framework, agent-interface, zotero]
 ---
