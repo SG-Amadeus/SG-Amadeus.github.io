@@ -1,56 +1,107 @@
-# Chirpy Starter
+# SG-Amadeus Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+A technical blog documenting explorations in AI-assisted programming, toolchain integration, and software architecture.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## Blog Focus
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+This blog serves as a knowledge base and thought repository covering several interconnected themes:
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+### Core Topics
 
-```shell
+1. **AI & LLM Integration**
+   - AI-assisted programming workflows and tools
+   - LLM integration with existing toolchains (Zotero, CLI tools, etc.)
+   - Building bridges between AI models and local applications
+   - Philosophical reflections on human-AI collaboration in coding
+
+2. **Tool Design & Automation**
+   - Design patterns for CLI tools and automation scripts
+   - Architecture analysis of production systems
+   - Workflow optimization and productivity tooling
+   - API design and integration strategies
+
+3. **Software Architecture**
+   - System design principles and patterns
+   - Refactoring experiences and architectural evolution
+   - Performance optimization techniques
+   - Technical debt management and code quality
+
+4. **Development Practices**
+   - Testing strategies and quality assurance
+   - CI/CD pipeline optimization
+   - Documentation and knowledge management
+   - Open-source tool evaluation and adoption
+
+### Recent Series
+
+- **Zotero Automation Series**: Exploring HTTP APIs, JavaScript integration, and LLM bridges for local data management
+- **AI Tool Design Series**: Lessons from building Claude Code and other AI-assisted development tools
+- **Architecture Deep Dives**: Analysis of systems like Sogou C++ Workflow, CLI tool architectures, etc.
+- **Development Philosophy**: Reflections on hardcoding, configuration management, and human-AI collaboration
+
+## Technology Stack
+
+- **Framework**: [Jekyll](https://jekyllrb.com/) static site generator
+- **Theme**: [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+- **Hosting**: GitHub Pages
+- **Language**: Primarily Chinese content with English metadata
+- **Features**: Responsive design, dark/light mode, SEO optimization, tag/category navigation
+
+## Project Structure
+
+```
 .
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+├── _posts/              # Blog articles in Markdown format
+├── _config.yml          # Site configuration
+├── _data/              # Custom data files
+├── _tabs/              # Navigation pages
+├── assets/             # Images, CSS, JavaScript
+└── index.html          # Homepage
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Local Development
 
-## Prerequisites
+To run the blog locally:
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+```bash
+# Install dependencies
+bundle install
 
-## Installation
+# Start the development server
+bundle exec jekyll serve
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```console
-$ bundle
+# Access at http://localhost:4000
 ```
 
-## Usage
+## Content Style
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+- **Primary Language**: Chinese (for broader accessibility)
+- **Technical Terms**: English when appropriate
+- **Code Examples**: Language-specific with proper highlighting
+- **References**: Links to source materials and related projects
+- **Metadata**: Bilingual tags and categories for better organization
+
+## Author
+
+**SG-Amadeus** - A developer passionate about building efficient toolchains and exploring the intersection of AI and traditional programming.
+
+- GitHub: [@SG-Amadeus](https://github.com/SG-Amadeus)
+- Blog: [https://sg-amadeus.github.io](https://sg-amadeus.github.io)
 
 ## License
 
-This work is published under [MIT][mit] License.
+The content of this blog is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You are free to share and adapt the material with proper attribution.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+The underlying theme and code are based on [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) which is MIT licensed.
+
+## Contributing
+
+While this is primarily a personal blog, I welcome:
+- Discussion via GitHub Issues
+- Suggestions for topics to cover
+- Corrections to technical content
+- Sharing of related experiences
+
+---
+
+*This blog represents an ongoing journey of learning and exploration. The goal is not just to document solutions, but to understand the deeper principles behind the tools and techniques we use every day.*
